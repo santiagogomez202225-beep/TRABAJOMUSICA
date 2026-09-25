@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trap Colombia - La escena del movimiento urbano.">
+    <meta name="theme-color" content="#0a0a0f">
+    <title>TRAP COLOMBIA | MOVIMIENTO URBANO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header class="navbar" id="navbar">
+        <div class="navbar-inner">
+            <a href="#musica" class="brand">
+                <span class="brand-logo">TRAP</span>
+                <span class="brand-sub">COLOMBIA</span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#musica" class="nav-link active" data-section="musica">MUSICA</a>
+                <a href="#videos" class="nav-link" data-section="videos">VIDEOS</a>
+                <a href="#juega" class="nav-link" data-section="juega">JUEGA</a>
+                <a href="#herramientas" class="nav-link" data-section="herramientas">HERRAMIENTAS</a>
+                <a href="#academia" class="nav-link" data-section="academia">ACADEMIA</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section id="musica" class="seccion-content active">
+            <div class="section-head">
+                <h2 class="section-title">Artistas del Movimiento</h2>
+                <p class="section-desc">MADE FROM PAIN.</p>
+            </div>
+
+            <div class="grid-artistas">
+
+                <article class="card" data-src="musica/IMAGEN.mp3" data-title="Pirlo" data-artist="Cali Cartel"
+                    data-img="imagenes/PIRLO.JPG">
+                    <div class="card-img-wrap">
+                        <img src="imagenes/PIRLO.JPG" alt="Pirlo" loading="lazy">
+                        <span class="card-tag">Cali Cartel</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Pirlo</h3>
+                        <p>Los códigos pesan más que la plata</p>
+                        <button class="btn-play">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                            REPRODUCIR
+                        </button>
+                    </div>
+                </article>
+
+                <article class="card" data-src="musica/EL AMERICANO 4KT - EL IS BACK.mp3" data-title="El Americano 4KT"
+                    data-artist="Four Real" data-img="imagenes/AMERICANO.jpg">
+                    <div class="card-img-wrap">
+                        <img src="imagenes/AMERICANO.jpg" alt="El Americano 4KT" loading="lazy">
+                        <span class="card-tag">Four Real</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>El Americano 4KT</h3>
+                        <p>Calle en la sangre, trap en el ADN</p>
+                        <button class="btn-play">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                            REPRODUCIR
+                        </button>
+                    </div>
+                </article>
+
+                <article class="card" data-src="musica/DIOS ME ESTA CUIDANDO.mp3" data-title="jaimeelking444"
+                    data-artist="Cali Cartel" data-img="imagenes/JAIME444.JPG">
+                    <div class="card-img-wrap">
+                        <img src="imagenes/JAIME444.JPG" alt="jaimeelking444" loading="lazy">
+                        <span class="card-tag">Cali Cartel</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>jaimeelking444</h3>
+                        <p>Desde la esquina pa'l mundo</p>
+                        <button class="btn-play">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                            REPRODUCIR
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="card-emisora">
+                <div class="emisora-header">
+                    <div class="live-badge">
+                        <span class="dot-live"></span> EN VIVO
+                    </div>
+                    <div class="equalizer">
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="emisora-info">
+                    <h3>📻 RADIO & TRAP</h3>
+                    <p>Transmitiendo la calle 24/7 · Movimiento urbano sin filtros</p>
+                </div>
+                <div class="audio-wrapper">
+                    <audio controls class="custom-audio">
+                        <source src="https://stream.zeno.fm/f3wvbbqmdg8uv" type="audio/mpeg">
+                        Tu navegador no soporta audio.
+                    </audio>
+                </div>
+            </div>
+
+            <div class="banner-spotify">
+                <div class="spotify-head">
+                    <span class="spotify-dot"></span>
+                    <h3>Escucha "Copien De Mi Flow" de Pirlo en Spotify</h3>
+                </div>
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/1c3qnJkORe6wL7CgomWrqE?utm_source=generator&theme=0"
+                    width="100%" height="152" frameborder="0" allowfullscreen
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+        <section id="videos" class="seccion-content">
+            <div class="section-head">
+                <h2 class="section-title">Visualizer / Trailer</h2>
+                <p class="section-desc">Lo último en video del movimiento.</p>
+            </div>
+
+            <div class="grid-videos">
+
+                <div class="card-video">
+                    <span class="tag-video">📹 Video Promocional</span>
+                    <div class="contenedor-video">
+                        <video controls poster="imagenes/4KT.JPG">
+                            <source src="videos/trap-promo.mp4" type="video/mp4">
+                            Tu navegador no soporta video.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="card-video">
+                    <span class="tag-video">🔴 Desde YouTube</span>
+                    <div class="contenedor-video video-yt">
+                        <iframe src="https://www.youtube.com/embed/fMHxn9D96rI" title="Type Beat Pirlo" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="juega" class="seccion-content">
+            <div class="section-head">
+                <h2 class="section-title">🎯 Cacería de Pájaros</h2>
+                <p class="section-desc">Apunta con la escopeta y derriba todos los pájaros en 30 segundos.</p>
+            </div>
+
+            <div class="game-container">
+
+                <div class="game-stats">
+                    <div class="stat-box">
+                        <span class="stat-label">🐦 Pájaros</span>
+                        <span class="stat-value" id="game-score">0</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-label">⏱️ Tiempo</span>
+                        <span class="stat-value" id="game-time">30</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-label">🎯 Disparos</span>
+                        <span class="stat-value" id="game-shots">0</span>
+                    </div>
+                </div>
+
+                <div class="canvas-wrapper" id="bird-wrapper">
+                    <canvas id="gameCanvas" width="560" height="420"></canvas>
+                    <div id="game-overlay" class="game-overlay active">
+                        <h3 id="overlay-title">CACERÍA DE PÁJAROS 🐦</h3>
+                        <p id="overlay-desc">Haz <b>click</b> o <b>toca</b> los pájaros para derribarlos. ¡Tienes 30
+                            segundos!</p>
+                        <button id="btn-start-game" class="btn-game">¡Iniciar Cacería! 🔫</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="herramientas" class="seccion-content">
+            <div class="section-head">
+                <h2 class="section-title">🛠️ Herramientas Urbanas</h2>
+                <p class="section-desc">Todo lo que necesitas pa'l trabajo creativo.</p>
+            </div>
+
+            <div class="grid-herramientas">
+
+                <div class="card-herramienta">
+                    <h3>📜 Visor de Documentos PDF</h3>
+
+                    <div class="pdf-upload-box">
+                        <label for="pdf-input" class="btn-upload-pdf">📁 Seleccionar PDF</label>
+                        <input type="file" id="pdf-input" accept="application/pdf" hidden>
+                        <span id="pdf-name">Sin archivo</span>
+                    </div>
+
+                    <div class="pdf-preview-container">
+                        <iframe id="pdf-frame" src="about:blank" title="Visor PDF"></iframe>
+                        <div id="pdf-placeholder" class="pdf-placeholder">
+                            <span class="icon-pdf">📄</span>
+                            <h4>Biblioteca de Contratos y Guías</h4>
+                            <p>Selecciona un PDF para visualizarlo en pantalla.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-herramienta">
+                    <h3>🎨 Studio Underground: Pizarra Creativa</h3>
+
+                    <div class="canvas-controls">
+                        <div class="control-group">
+                            <label>✏️ Color</label>
+                            <input type="color" id="draw-color" value="#ff0033">
+                        </div>
+
+                        <div class="control-group">
+                            <label>🖊️ Grosor</label>
+                            <input type="range" id="draw-size" min="1" max="25" value="5">
+                        </div>
+
+                        <div class="control-group temas-group">
+                            <label>🎨 Fondo</label>
+                            <button class="btn-tema active" data-color="#0a0a0f">Noche</button>
+                            <button class="btn-tema" data-color="#1a1a24">Street</button>
+                            <button class="btn-tema" data-color="#2a0815">Neón</button>
+                            <button class="btn-tema" data-color="#f0f0f0">Claro</button>
+                        </div>
+
+                        <button id="btn-clear-canvas" class="btn-limpiar">🗑️ Limpiar</button>
+                    </div>
+
+                    <div class="canvas-board-wrapper" id="canvas-wrapper">
+                        <canvas id="sketchCanvas" width="500" height="350"></canvas>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="academia" class="seccion-content">
+            <div class="section-head">
+                <h2 class="section-title">🎓 Expediente Técnico</h2>
+                <p class="section-desc">Quién está detrás del movimiento.</p>
+            </div>
+
+            <div class="grid-academia">
+
+                <div class="card-profile">
+                    <div class="profile-header">
+                        <div class="profile-avatar">
+                            <span>👨‍💻</span>
+                            <span class="status-dot"></span>
+                        </div>
+
+                        <div class="profile-info">
+                            <div class="profile-name-row">
+                                <h3>Santiago Gómez</h3>
+                                <span class="verified-badge" title="Verificado">✓</span>
+                            </div>
+                            <p class="subtitle">&lt;/&gt; Fullstack Developer · SENA ADSO</p>
+                            <p class="profile-bio">
+                                Construyendo experiencias web con flow. Especializado en Canvas API, audio interactivo y
+                                diseño responsive. Del código al barrio, sin escalas. 🔥
+                            </p>
+
+                            <div class="profile-badges">
+                                <span class="badge badge-online">🟢 Disponible</span>
+                                <span class="badge badge-level">🔥 Nivel: Élite</span>
+                                <span class="badge badge-status">⚡ SENA ADSO</span>
+                                <span class="badge badge-git">💎 Fullstack</span>
+                            </div>
+                        </div>
+
+                        <div class="profile-actions">
+                            <a href="https://github.com/santiagogomez202225-beep" target="_blank" rel="noopener"
+                                class="btn-github">
+                                <span>🐙</span> GitHub
+                            </a>
+                            <a href="mailto:santiagogomez202225@gmail.com" class="btn-contact">
+                                <span>📩</span> Contacto
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="profile-stats">
+                        <div class="profile-stat">
+                            <span class="stat-num">25+</span>
+                            <span class="stat-txt">Repos</span>
+                        </div>
+                        <div class="profile-stat">
+                            <span class="stat-num">500+</span>
+                            <span class="stat-txt">Commits</span>
+                        </div>
+                        <div class="profile-stat">
+                            <span class="stat-num">3+</span>
+                            <span class="stat-txt">Años code</span>
+                        </div>
+                        <div class="profile-stat">
+                            <span class="stat-num">100%</span>
+                            <span class="stat-txt">Flow</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-stack-container">
+                        <h4>🛠️ Stack Tecnológico del Proyecto</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript Vanilla</span>
+                            <span class="tech-tag">Canvas API</span>
+                            <span class="tech-tag">Web Audio</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+
+                        <div class="skills-container">
+                            <div class="skill-item">
+                                <div class="skill-head">
+                                    <span>HTML5 & CSS3</span>
+                                    <span class="skill-percent">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-head">
+                                    <span>JavaScript</span>
+                                    <span class="skill-percent">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="88"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-head">
+                                    <span>Canvas / Game Dev</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-head">
+                                    <span>UI / UX Design</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-feature-cards">
+                        <div class="feature-card">
+                            <div class="feature-icon">🎧</div>
+                            <h5>Módulo Beat & Audio</h5>
+                            <p>Reproductor fijo con gestión dinámica de pistas.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🎮</div>
+                            <h5>Cacería Engine</h5>
+                            <p>Motor 2D en Canvas con puntería y partículas.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🎨</div>
+                            <h5>Studio Tools & PDF</h5>
+                            <p>Pizarra creativa en vivo y visor de documentos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-map-location">
+                    <div class="map-header">
+                        <h3>📍 BASE DE OPERACIONES</h3>
+                        <span class="location-tag">Popayán, Cauca · Colombia</span>
+                    </div>
+
+                    <div class="map-wrapper">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63778.36979503738!2d-76.63495449999999!3d2.44481435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e300311c33a925f%3A0x2f153a5624792038!2sPopay%C3%A1n%2C%20Cauca!5e0!3m2!1ses!2sco!4v1710000000000!5m2!1ses!2sco"
+                            width="100%" height="320" style="border:0;" allowfullscreen loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 TRAP COLOMBIA · MADE IN POPAYÁN CAUCA 🔥 · DEL BARRIO PA'L MUNDO 💯</p>
+        <div class="footer-links">
+            <a href="#musica">MUSICA</a>
+            <a href="#videos">VIDEOS</a>
+            <a href="#juega">JUEGA</a>
+            <a href="#academia">ACADEMIA</a>
+        </div>
+    </footer>
+
+    <div class="player-bar">
+        <div class="track-info">
+            <img id="player-img" src="imagenes/PIRLO.JPG" alt="Cover">
+            <div class="track-text">
+                <h4 id="player-title">SELECCIONA UNA CANCIO</h4>
+                <p id="player-artist">TRAP COLOMBIA</p>
+            </div>
+        </div>
+        <div class="audio-controls">
+            <audio id="main-audio" controls>
+                <source id="audio-source" src="musica/IMAGEN.mp3" type="audio/mpeg">
+                TU NAVEGADOR NO SOPORTA AUDIO.
+            </audio>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
